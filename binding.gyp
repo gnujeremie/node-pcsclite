@@ -54,6 +54,9 @@
 						],
 						"include_dirs": [
 							"<!(node -e \"require('nan')\")"
+						],
+						"defines": [
+							"NOMINMAX"
 						]
 					}
 				]
